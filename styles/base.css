@@ -1,4 +1,53 @@
 header h1 {
     text-align: center;
-    color: blueviolet;
+    color: white;
 }
+footer {
+    text-align: center;
+   background-color :sandybrown;
+   padding: 20px;
+}
+.dev{
+    margin-left: 48em;
+    border-radius: 3em;
+    margin-bottom: 10px;
+    border-color:black;
+}
+.card h2{
+    text-align: center;
+    background-color: sandybrown;
+    border-radius: 4px;
+}
+.card {
+    margin-right: 28em;
+    border-radius: 3em;
+    margin-bottom: 10px;
+    border-color:black;
+}
+header{
+    background-color:sandybrown
+}
+.tennies{
+    float: right;
+}
+.box {
+   width: 80%;
+}
+.dox{
+    width: 50%;
+}
+ .navbar li{
+    display: inline-block;
+ }
+ .navbar a{
+    text-decoration: dotted;
+    color: ghostwhite;
+    width: 100px;
+    margin: 6em;
+ }
+ .navbar a:hover{
+    background-color: gray;
+ }
+ .bij{
+    text-wrap:3px;
+ }
