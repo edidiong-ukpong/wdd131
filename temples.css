@@ -1,0 +1,15 @@
+header{
+    color: purple;
+}
+footer {
+    text-align: center;
+   background-color :sandybrown;
+   padding: 20px;
+}
+.navbar a{
+    text-decoration: dotted;
+    color: ghostwhite;
+    width: 100px;
+    margin: 6em;
+    float: right;
+ }
