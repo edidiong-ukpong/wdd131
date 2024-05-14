@@ -1,34 +1,70 @@
-header{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     background-color:skyblue;
-    border-radius: 5px;
-    padding: 20px;
-    text-shadow: 4px;
-    color: beige;
+    padding: 10px 0;
+    border-radius: 4px;
+    color:white;
 }
-footer {
-    text-align: center;
-    background-color:skyblue;
-    padding: 4px;
-    border-radius: 5px;
+
+header h1 {
+    margin: 0%;
+
 }
-h2{
-    text-align: center;
-    color: purple;
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
 }
-footer,h4,h5{
-    color: aliceblue;
-}
-.mandy li{
-    display: inline-block;
-    margin-right: 3%;
-    color: aliceblue;
-    float: inline-end;
-    border-radius: 3px;
-    padding: bottom 10%;
- }
- .mandy a:hover{
+.mandy a:hover{
     background-color:thistle;
  }
- *{
-    box-sizing:border-box ;
- }
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* space between grid items */
+}
+
+.gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color:burlywood;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 20px;
+    border-radius: 4px;
+}
