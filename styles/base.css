@@ -7,12 +7,6 @@ footer {
    background-color :sandybrown;
    padding: 20px;
 }
-.dev{
-    margin-left: 48em;
-    border-radius: 3em;
-    margin-bottom: 10px;
-    border-color:black;
-}
 .card h2{
     text-align: center;
     background-color: sandybrown;
@@ -50,4 +44,8 @@ header{
  }
  .bij{
     text-wrap:3px;
+ }
+ .dev{
+    padding: 10px;
+    background-color: aqua;
  }

@@ -1,0 +1,34 @@
+header{
+    background-color:skyblue;
+    border-radius: 5px;
+    padding: 20px;
+    text-shadow: 4px;
+    color: beige;
+}
+footer {
+    text-align: center;
+    background-color:skyblue;
+    padding: 4px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: purple;
+}
+footer,h4,h5{
+    color: aliceblue;
+}
+.mandy li{
+    display: inline-block;
+    margin-right: 3%;
+    color: aliceblue;
+    float: inline-end;
+    border-radius: 3px;
+    padding: bottom 10%;
+ }
+ .mandy a:hover{
+    background-color:thistle;
+ }
+ *{
+    box-sizing:border-box ;
+ }
