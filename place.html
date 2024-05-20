@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place</title>
-    <link rel="stylesheet" href="styles/place.css" />
+    <link rel="stylesheet" href="styles/place.css">
 </head>
-
 <body>
     <header>
-        <h1>iceland</h1>
+        <h1>Place</h1>
     </header>
     <main>
-        <picture>
-            <img src="images/pexels-ilia.jpg" alt="Hero Image" height="500" width="1900">
-        </picture>
+        <section class="hero">
+            <picture>
+               
+                <img src="images/pexels-mikhail-peace.jpg" alt="Hero Image">
+            </picture>
+        </section>
         <section class="Data">
             <div>
                 <h2>Data</h2>
@@ -30,9 +31,11 @@
         </section>
         <hr>
         <section class="weather">
-            <div>
-                <h2>Weather</h2>
-                <img src="images/cloudy_icon.png" alt="Weather Icon">
+            <div class="Data">
+                <h2>Weather ⛅</h2>
+                <img src="images/weather-icon.svg" alt="Weather Icon" class="weather-icon">
+                <p>Sunny, 10°C</p> <!-- Updated with Celsius symbol -->
+                <p id="wind-chill">Wind Chill: N/A</p> <!-- New element for wind chill -->
                 <h5>Temperature: 75°F</h5>
                 <h5>conditions:Very cloudy</h5>
                 <h5>wind:16km/h</h5>
@@ -41,10 +44,12 @@
         </section>
     </main>
     <footer>
-        <p><span id="2024"></span> &copy; edidiong-ukpong, Akwa-ibom, Nigeria</p>
-        <p>lastModification:11,may 2024 4:09:38"</p>
+        <div class="static-info">
+			<p><span id="2024"></span> &copy; edidiong-ukpong, Akwa-ibom, Nigeria</p>
+			<p>lastModification:11,may 2024 4:09:38"</p>
+            
+		</div>
     </footer>
     <script src="js/scripts.js" defer></script>
 </body>
-
 </html>
